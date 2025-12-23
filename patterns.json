@@ -1,0 +1,229 @@
+{
+  "patterns": [
+    {
+      "id": 1,
+      "name": "Rangoli Circle",
+      "culture": "Indian (Diwali)",
+      "category": "geometric",
+      "meaning": "Circular patterns symbolize unity, wholeness, and the cycles of life. During Diwali, rangoli designs welcome Lakshmi, the goddess of prosperity.",
+      "tags": ["circular", "symmetric", "festive", "prosperity"],
+      "palette": ["#FF6B35", "#F7931E", "#FDC830", "#FFE066"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "circle", "x": 0, "y": 0, "r": 20, "fill": false, "strokeWidth": 2 },
+          { "kind": "circle", "x": 0, "y": 0, "r": 12, "fill": false, "strokeWidth": 2 },
+          { "kind": "dots", "count": 8, "radius": 16, "dotRadius": 3, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nordic Snowflake",
+      "culture": "Scandinavian (Yule)",
+      "category": "nature",
+      "meaning": "Traditional Nordic snowflake patterns represent the beauty of winter and the hope for the sun's return during the darkest days of Yule.",
+      "tags": ["winter", "nature", "hope", "traditional"],
+      "palette": ["#4A90D9", "#6CB4EE", "#87CEEB", "#B0E0E6"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "rayburst", "count": 6, "innerR": 4, "outerR": 22, "strokeWidth": 2 },
+          { "kind": "rayburst", "count": 6, "innerR": 10, "outerR": 18, "strokeWidth": 1.5, "rotation": 30 },
+          { "kind": "circle", "x": 0, "y": 0, "r": 4, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Star of David",
+      "culture": "Jewish (Hanukkah)",
+      "category": "religious",
+      "meaning": "The six-pointed star represents divine protection and the connection between God and humanity. During Hanukkah, it symbolizes the miracle of light.",
+      "tags": ["star", "religious", "light", "protection"],
+      "palette": ["#0038B8", "#FFFFFF", "#C0C0C0", "#4169E1"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "polygon", "sides": 3, "r": 18, "fill": false, "strokeWidth": 2, "rotation": 0 },
+          { "kind": "polygon", "sides": 3, "r": 18, "fill": false, "strokeWidth": 2, "rotation": 180 }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "Celtic Knot",
+      "culture": "Irish/Scottish (Winter Solstice)",
+      "category": "symbolic",
+      "meaning": "Celtic knots represent eternity and interconnectedness. The endless loops symbolize the eternal cycle of seasons and rebirth during the winter solstice.",
+      "tags": ["eternal", "interconnected", "ancient", "mystical"],
+      "palette": ["#228B22", "#32CD32", "#90EE90", "#F0E68C"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "arc", "x": -8, "y": 0, "r": 12, "startAngle": 0, "endAngle": 180, "strokeWidth": 3 },
+          { "kind": "arc", "x": 8, "y": 0, "r": 12, "startAngle": 180, "endAngle": 360, "strokeWidth": 3 },
+          { "kind": "arc", "x": 0, "y": -8, "r": 12, "startAngle": 90, "endAngle": 270, "strokeWidth": 3 },
+          { "kind": "arc", "x": 0, "y": 8, "r": 12, "startAngle": 270, "endAngle": 450, "strokeWidth": 3 }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "Chinese Coin",
+      "culture": "Chinese (Lunar New Year)",
+      "category": "prosperity",
+      "meaning": "Round coins with square holes represent the harmony between heaven (circle) and earth (square). They symbolize wealth and good fortune for the new year.",
+      "tags": ["wealth", "fortune", "harmony", "prosperity"],
+      "palette": ["#FFD700", "#FF4500", "#8B0000", "#FFDF00"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "circle", "x": 0, "y": 0, "r": 20, "fill": false, "strokeWidth": 3 },
+          { "kind": "rect", "x": -6, "y": -6, "width": 12, "height": 12, "fill": false, "strokeWidth": 2 },
+          { "kind": "dots", "count": 4, "radius": 14, "dotRadius": 2, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "Russian Frost Pattern",
+      "culture": "Russian (New Year)",
+      "category": "nature",
+      "meaning": "Inspired by the intricate frost patterns on winter windows, these designs celebrate the beauty of Russian winters and Ded Moroz (Father Frost).",
+      "tags": ["frost", "nature", "winter", "intricate"],
+      "palette": ["#E0FFFF", "#B0E0E6", "#87CEEB", "#ADD8E6"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "rayburst", "count": 8, "innerR": 2, "outerR": 20, "strokeWidth": 1 },
+          { "kind": "rayburst", "count": 8, "innerR": 8, "outerR": 14, "strokeWidth": 1, "rotation": 22.5 },
+          { "kind": "circle", "x": 0, "y": 0, "r": 6, "fill": false, "strokeWidth": 1 },
+          { "kind": "branchlets", "count": 8, "length": 18, "branchLength": 6, "strokeWidth": 1 }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "name": "Japanese Snowflake",
+      "culture": "Japanese (Winter)",
+      "category": "nature",
+      "meaning": "Japanese yuki (snow) patterns embody the concept of mono no aware - the bittersweet beauty of transient things like fleeting snowflakes.",
+      "tags": ["transient", "delicate", "nature", "beauty"],
+      "palette": ["#FFFFFF", "#F5F5F5", "#FFB7C5", "#98D8C8"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "rayburst", "count": 6, "innerR": 0, "outerR": 18, "strokeWidth": 1.5 },
+          { "kind": "hexagon", "r": 10, "fill": false, "strokeWidth": 1 },
+          { "kind": "dots", "count": 6, "radius": 18, "dotRadius": 2, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "name": "Mexican Poinsettia",
+      "culture": "Mexican (Navidad)",
+      "category": "floral",
+      "meaning": "The poinsettia, or Flor de Nochebuena, is Mexico's Christmas flower. Its star shape symbolizes the Star of Bethlehem guiding the wise men.",
+      "tags": ["floral", "star", "christmas", "guidance"],
+      "palette": ["#C41E3A", "#228B22", "#FFD700", "#FFFFFF"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "petals", "count": 8, "innerR": 4, "outerR": 20, "width": 8, "strokeWidth": 2 },
+          { "kind": "dots", "count": 8, "radius": 6, "dotRadius": 2, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "name": "African Adinkra",
+      "culture": "Ghanaian (Kwanzaa)",
+      "category": "symbolic",
+      "meaning": "Adinkra symbols carry profound meanings. This pattern represents 'Nkyinkyim' - life's twisting path, emphasizing resilience and adaptability.",
+      "tags": ["wisdom", "resilience", "symbolic", "heritage"],
+      "palette": ["#000000", "#C41E3A", "#228B22", "#FFD700"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "spiral", "x": 0, "y": 0, "turns": 2, "maxR": 18, "strokeWidth": 2 },
+          { "kind": "dots", "count": 4, "radius": 10, "dotRadius": 3, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "name": "Persian Star",
+      "culture": "Persian (Yalda Night)",
+      "category": "geometric",
+      "meaning": "Eight-pointed stars in Persian art represent regeneration and life. Yalda Night celebrates the triumph of light over darkness on the winter solstice.",
+      "tags": ["star", "light", "triumph", "geometric"],
+      "palette": ["#1E90FF", "#FFD700", "#DC143C", "#FFFFFF"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "star", "points": 8, "innerR": 8, "outerR": 20, "fill": false, "strokeWidth": 2 },
+          { "kind": "circle", "x": 0, "y": 0, "r": 5, "fill": true }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "name": "Moroccan Tile",
+      "culture": "Moroccan (Winter)",
+      "category": "geometric",
+      "meaning": "Zellige tile patterns represent infinity through their endless geometric repetition. They bring warmth and beauty to homes during cold winter months.",
+      "tags": ["geometric", "infinity", "warmth", "artistic"],
+      "palette": ["#0066CC", "#FFFFFF", "#FFD700", "#228B22"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "polygon", "sides": 8, "r": 18, "fill": false, "strokeWidth": 2 },
+          { "kind": "polygon", "sides": 4, "r": 12, "fill": false, "strokeWidth": 1.5, "rotation": 0 },
+          { "kind": "polygon", "sides": 4, "r": 12, "fill": false, "strokeWidth": 1.5, "rotation": 45 }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "name": "Inuit Snowflake",
+      "culture": "Inuit (Arctic Winter)",
+      "category": "nature",
+      "meaning": "Inuit cultures have deep connections with snow and ice. This pattern honors the many forms of snow recognized in Inuit languages and traditions.",
+      "tags": ["arctic", "nature", "traditional", "snow"],
+      "palette": ["#FFFFFF", "#E0FFFF", "#B0C4DE", "#4682B4"],
+      "stampDefinition": {
+        "type": "composite",
+        "shapes": [
+          { "kind": "rayburst", "count": 6, "innerR": 0, "outerR": 22, "strokeWidth": 2.5 },
+          { "kind": "rayburst", "count": 6, "innerR": 6, "outerR": 12, "strokeWidth": 2, "rotation": 30 },
+          { "kind": "rayburst", "count": 6, "innerR": 12, "outerR": 18, "strokeWidth": 1.5, "rotation": 30 },
+          { "kind": "hexagon", "r": 6, "fill": true }
+        ]
+      }
+    }
+  ],
+  "cultures": [
+    "Indian (Diwali)",
+    "Scandinavian (Yule)",
+    "Jewish (Hanukkah)",
+    "Irish/Scottish (Winter Solstice)",
+    "Chinese (Lunar New Year)",
+    "Russian (New Year)",
+    "Japanese (Winter)",
+    "Mexican (Navidad)",
+    "Ghanaian (Kwanzaa)",
+    "Persian (Yalda Night)",
+    "Moroccan (Winter)",
+    "Inuit (Arctic Winter)"
+  ],
+  "categories": [
+    "geometric",
+    "nature",
+    "religious",
+    "symbolic",
+    "prosperity",
+    "floral"
+  ]
+}
